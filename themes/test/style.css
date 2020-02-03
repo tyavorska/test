@@ -1,0 +1,385 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+ a {
+	color: #000;
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	max-width: 1200px;
+	width: 100%;
+	height: 113px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.logo{
+	height: 100px;
+	width: 160px;
+}
+.social-icons {
+	display: flex;
+	justify-content: space-between;
+	max-width: 80px;
+	width: 100%;
+}
+.social-icons img{
+	width: 20px;
+}
+.section1{
+	background: url(/wp-content/uploads/2020/01/Bg_promo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+.promo {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 1200px;
+	width: 100%;
+}
+h1.main-title {
+	color: #fff;
+	font-size: 90px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+h1.main-title::after {
+	 content: url(/wp-content/uploads/2020/01/Divider.png);
+	 display: block;
+ }
+a.btn-menu {
+	width: 200px;
+	height: 55px;
+	border: 1px solid #fff;
+	background-color: #ffffff50;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor: pointer;
+}
+a.btn-menu:hover{
+	background-color: #00000077;
+	border-color: #000000;
+}
+.submits {
+	display: flex;
+	justify-content: space-between;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	max-width: 810px;
+	width: 100%;
+}
+.menu {
+	max-width: 709px;
+	width: 100%;
+}
+.menu ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+
+}
+.menu  {
+	max-width: 709px;
+	width: 100%;
+}
+.menu a {
+	font-size: 21px;
+	font-family: 'Gentium Book Basic', serif;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.menu li{
+	position: relative;
+}
+.menu a:hover::before{
+	color: #cac8bd;
+	content: '';
+	position: absolute;
+	border: #c8c6bb solid 2px ;
+	width: 100%;
+	top: -44px;
+}
+.menu a:hover{
+	color: #cac8bd;
+}
+
+
+.section2 {
+    background: url(/wp-content/uploads/2020/01/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.about {
+	max-width: 1040px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin: 100px 0;
+}
+.left-block {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    color: #cc9900;
+    line-height: 0.85;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+p.main-text {
+     color: #525252;
+     font-family: "Lato", 'Lato', sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+    margin: 0 auto;
+    padding-top: 30px;
+ }
+img.cook {
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(/wp-content/uploads/2020/01/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ingredints {
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px 0 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-section {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+    background-color: #00000080;
+}
+.right-section p{
+     color: #ffffff;
+ }
+.right-section h1{
+    color: #ffffff;
+}
+.images-3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 390px;
+    width: 100%;
+    margin-top: 65px;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(/wp-content/uploads/2020/01/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-section {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-section {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0 90px 0;
+}
+.section4 .left-block-item, .right-block-item {
+     max-width: 400px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+.content-section p {
+    margin: 0;
+}
+.content-section .salads, .main {
+    padding-top: 40px;
+}
+.name-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    position: relative;
+}
+
+p.heading::after {
+    content: url(/wp-content/themes/test/img/Divider2.png);
+    display: block;
+    margin-top: 15px;
+}
+
+.name-price p {
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #c89f2d;
+    line-height: 1.143;
+}
+.name-price::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #c89f2d50;
+    position: absolute;
+    width: 93%;
+    padding: 15px;
+}
+
+.salads .menu-item:nth-child(3), .main .menu-item:nth-child(3) {
+    border: 1px solid #c89f2d50;
+    padding: 10px;
+    width: 109%;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(/wp-content/themes/test/img/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reviews {
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-section {
+    max-width: 703px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 60px 80px;
+    background-color: #00000099;
+}
+.center-section p{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Gentium Book Basic', serif;
+}
+p.quote {
+     font-size: 20px;
+ }
+.center-section h1{
+    color: #ffffff;
+}
+
+footer{
+    border: 1px solid;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #000;
+}
+
+.footer-block {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.column {
+    max-width: 345px;
+    width: 100%;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.column p{
+    margin: 0;
+}
+p.head-title {
+    font-family: 'Yeseva One';
+    font-size: 21px;
+    line-height: 2.4;
+}
+p.head-title::after {
+    content: url(/wp-content/themes/test/img/Divider2.png);
+    display: block;
+}
+p.text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+.column .social-icons{
+
+    margin-top: 60px;
+}
+.column span {
+    font-weight: bold;
+}
